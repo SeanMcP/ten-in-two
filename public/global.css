@@ -37,3 +37,14 @@ a:focus, a:hover {
     color: white;
     text-decoration: none;
 }
+
+button {
+    box-sizing: border-box;
+    padding: 0.5rem 1rem;
+}
+
+button.button--primary {
+    background: var(--primary);
+    border: none;
+    color: white;
+}

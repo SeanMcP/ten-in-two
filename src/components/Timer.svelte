@@ -41,15 +41,26 @@
 </script>
 
 <style>
-  div p {
+  .Timer__display {
     font-family: Menlo, Monaco, monospace;
     font-size: 4em;
     margin: 1rem 0;
     text-align: center;
   }
 
-  div p.done {
+  .Timer__display--done,
+  .Timer__display--stopped {
     animation: blinking 1s linear infinite;
+  }
+
+  .Timer__buttons {
+    display: flex;
+    justify-content: center;
+  }
+
+  .Timer__buttons button {
+    margin: 0 0.5rem;
+    width: 96px;
   }
 
   @keyframes blinking {
@@ -68,15 +79,20 @@
   }
 </style>
 
-<div>
-  <p class={clb(secondsRemaining <= 0 && 'done')}>
+<div class="Timer">
+  <p
+    class={clb('Timer__display', !isRunning && secondsRemaining < initialSeconds && 'Timer__display--stopped', secondsRemaining <= 0 && 'Timer__display--done')}>
     {formatClockTime(secondsRemaining)}
   </p>
-  
-  <button
-    disabled={secondsRemaining === 0}
-    on:click={isRunning ? stopClock : startClock}>
-    {isRunning ? 'Stop' : 'Start'}
-  </button>
-  <button on:click={resetClock}>Reset</button>
+
+  <div class="Timer__buttons">
+    <button
+      class="button--primary"
+      disabled={secondsRemaining === 0}
+      on:click={isRunning ? stopClock : startClock}>
+      {isRunning ? 'Stop' : 'Start'}
+    </button>
+    <button on:click={resetClock}>Reset</button>
+  </div>
+
 </div>
