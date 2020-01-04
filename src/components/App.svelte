@@ -1,6 +1,7 @@
 <script>
   import Footer from "./Footer.svelte";
   import Header from "./Header.svelte";
+  import Timer from "./Timer.svelte";
 </script>
 
 <style>
@@ -24,7 +25,7 @@
 <div class="App">
   <Header />
   <main>
-    <p>The game will go here.</p>
+    <Timer />
   </main>
   <Footer />
 </div>
