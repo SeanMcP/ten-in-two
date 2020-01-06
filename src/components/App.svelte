@@ -1,4 +1,5 @@
 <script>
+  import CategorySelect from "./CategorySelect.svelte";
   import Footer from "./Footer.svelte";
   import Header from "./Header.svelte";
   import Timer from "./Timer.svelte";
@@ -25,6 +26,7 @@
 <div class="App">
   <Header />
   <main>
+    <CategorySelect />
     <Timer />
   </main>
   <Footer />
