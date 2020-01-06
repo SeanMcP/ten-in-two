@@ -1,7 +1,10 @@
 :root {
-    --primary: #d00063;
-    --text-color: #333;
-    --border-color: #ccc;
+  --primary: #d00063;
+  --text-color: #333;
+  --border-color: #ccc;
+  --typeface-mono: 'Roboto Mono', Menlo, Monaco, monospace;
+  --typeface-sans: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI",
+  Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
 
 html,
@@ -16,8 +19,7 @@ body {
 body {
   box-sizing: border-box;
   color: var(--text-color);
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-family: var(--typeface-sans);
 }
 
 input,
@@ -29,24 +31,25 @@ textarea {
 }
 
 a {
-    color: var(--primary);
+  color: var(--primary);
 }
 
-a:focus, a:hover {
-    background: var(--primary);
-    color: white;
-    text-decoration: none;
+a:focus,
+a:hover {
+  background: var(--primary);
+  color: white;
+  text-decoration: none;
 }
 
 button {
-    box-sizing: border-box;
-    padding: 0.5rem 1rem;
+  box-sizing: border-box;
+  padding: 0.5rem 1rem;
 }
 
 button.button--primary {
-    background: var(--primary);
-    border: none;
-    color: white;
+  background: var(--primary);
+  border: none;
+  color: white;
 }
 
 button.button--emoji {

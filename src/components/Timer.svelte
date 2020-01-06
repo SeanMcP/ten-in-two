@@ -42,7 +42,7 @@
 
 <style>
   .Timer__display {
-    font-family: Menlo, Monaco, monospace;
+    font-family: var(--typeface-mono);
     font-size: 4em;
     margin: 1rem 0;
     text-align: center;
