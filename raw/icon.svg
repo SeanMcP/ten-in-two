@@ -13,7 +13,10 @@
    version="1.1"
    id="svg8"
    inkscape:version="1.0beta1 (fe3e306, 2019-09-17)"
-   sodipodi:docname="icon.svg">
+   sodipodi:docname="icon.svg"
+   inkscape:export-filename="/Users/sean/projects/ten-in-two/public/favicon.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -23,11 +26,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.24748737"
-     inkscape:cx="-212.63902"
-     inkscape:cy="-282.76416"
-     inkscape:document-units="mm"
-     inkscape:current-layer="svg8"
+     inkscape:zoom="2.8"
+     inkscape:cx="66.437847"
+     inkscape:cy="16.263347"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
      showgrid="true"
      units="px"
@@ -62,7 +65,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -79,37 +82,15 @@
        y="0" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:5.95455px;line-height:0.845;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.148864"
-       x="2.9802666"
-       y="5.2916408"
+       style="font-style:normal;font-weight:normal;font-size:7.50245px;line-height:0.845;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.187562"
+       x="0.44657084"
+       y="10.941187"
        id="text841"
        transform="scale(0.99999491,1.0000051)"><tspan
          sodipodi:role="line"
-         x="2.9802666"
-         y="5.2916408"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:'Roboto Bold';fill:#ffffff;stroke-width:0.148864"
-         id="tspan855">TEN</tspan></text>
-    <text
-       id="text865"
-       y="15.875001"
-       x="2.0090873"
-       style="font-style:normal;font-weight:normal;font-size:5.95458px;line-height:0.845;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.148865"
-       xml:space="preserve"><tspan
-         id="tspan863"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:'Roboto Bold';fill:#ffffff;stroke-width:0.148865"
-         y="15.875001"
-         x="2.0090873"
-         sodipodi:role="line">TWO</tspan></text>
+         x="0.44657084"
+         y="10.941187"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:'Roboto Bold';letter-spacing:-0.00166681px;fill:#ffffff;stroke-width:0.187562"
+         id="tspan855">10/2</tspan></text>
   </g>
-  <text
-     id="text850"
-     y="10.626735"
-     x="4.6632934"
-     style="font-style:normal;font-weight:normal;font-size:10.58329999999999949px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583;"
-     xml:space="preserve"><tspan
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Sacramento;-inkscape-font-specification:Sacramento;stroke-width:0.264583;fill:#ffffff;"
-       y="10.626735"
-       x="4.6632934"
-       id="tspan848"
-       sodipodi:role="line">in</tspan></text>
 </svg>
