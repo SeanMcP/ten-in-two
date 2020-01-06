@@ -48,3 +48,10 @@ button.button--primary {
     border: none;
     color: white;
 }
+
+button.button--emoji {
+  background: none;
+  border: none;
+  font-size: 1.5em;
+  padding: 0.5rem;
+}
