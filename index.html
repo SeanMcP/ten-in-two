@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset='utf-8'>
+	<meta name='viewport' content='width=device-width,initial-scale=1'>
+
+	<title>Ten in Two Game</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono|Roboto:100,400&display=swap" rel="stylesheet">
+	<link rel='icon' type='image/png' href='/favicon.png?v=0'>
+	<link rel='stylesheet' href='/global.css'>
+	<script type="module" src="/main.js"></script>
+</head>
+
+<body>
+	<div class="App">
+		<header class="SiteHeader">
+			<h1>Ten in Two</h1>
+			<p>A collaborative drawing game for 2+</p>
+		</header>
+
+		<main>
+			<section class="CategorySelect">
+				<header>
+					<label for="category-select"><b>Category</b></label>
+					<button aria-label="Select a random category" class="button--emoji" id="random-category">🎲</button>
+				</header>
+				<select id="category-select">
+					<optgroup label="Custom">
+						<option value="choose-your-own">Choose your own</option>
+					</optgroup>
+					<optgroup id="suggested-categories" label="Suggestions"></optgroup>
+				</select>
+				<label class="custom" for="custom-category" hidden>
+					<b>Custom category</b>
+					<input id="custom-category" />
+				</label>
+			</section>
+
+			<section class="Timer">
+				<p class="Timer__display" id="timer-display">2:00</p>
+				<div class="Timer__buttons">
+					<button class="button--primary" id="timer-toggle">Start</button>
+					<button id="timer-reset">Reset</button>
+				</div>
+			</section>
+		</main>
+
+		<footer>
+			<p>
+				Made by
+				<a href="https://seanmcp.com">Sean McP</a>
+			</p>
+		</footer>
+	</div>
+</body>
+</html>

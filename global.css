@@ -1,0 +1,155 @@
+:root {
+  --primary: #d00063;
+  --text-color: #333;
+  --border-color: #ccc;
+  --typeface-mono: 'Roboto Mono', Menlo, Monaco, monospace;
+  --typeface-sans: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI",
+  Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
+
+body {
+  box-sizing: border-box;
+  color: var(--text-color);
+  font-family: var(--typeface-sans);
+}
+
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+a {
+  color: var(--primary);
+}
+
+a:focus,
+a:hover {
+  background: var(--primary);
+  color: white;
+  text-decoration: none;
+}
+
+button {
+  box-sizing: border-box;
+  padding: 0.5rem 1rem;
+}
+
+button.button--primary {
+  background: var(--primary);
+  border: none;
+  color: white;
+}
+
+button.button--emoji {
+  background: none;
+  border: none;
+  font-size: 1.5em;
+  padding: 0.5rem;
+}
+
+.App {
+  margin: 0 auto;
+  max-width: 632px;
+  padding: 1em;
+}
+
+main {
+  padding: 1rem 0;
+}
+
+.SiteHeader {
+  border-bottom: 1px solid var(--border-color);
+  text-align: center;
+}
+
+.SiteHeader h1 {
+  color: var(--primary);
+  font-size: 3em;
+  font-weight: 100;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+footer {
+  border-top: 1px solid var(--border-color);
+  text-align: center;
+}
+
+.CategorySelect header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.CategorySelect label {
+  display: block;
+}
+
+.CategorySelect .button--emoji {
+  margin-right: -0.5rem;
+}
+
+.CategorySelect select {
+  width: 100%;
+}
+
+.CategorySelect .custom {
+  display: grid;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.Timer__display {
+  font-family: var(--typeface-mono);
+  font-size: 4em;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.Timer__display--done,
+.Timer__display--stopped {
+  animation: blinking 1s linear infinite;
+}
+
+.Timer__buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.Timer__buttons button {
+  margin: 0 0.5rem;
+  width: 96px;
+}
+
+@media (max-width: 632px) {
+  .App {
+    max-width: none;
+  }
+}
+
+@keyframes blinking {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  51% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
