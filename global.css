@@ -111,6 +111,10 @@ footer {
   margin-top: 1rem;
 }
 
+.CategorySelect .custom[hidden] {
+  display: none;
+}
+
 .Timer__display {
   font-family: var(--typeface-mono);
   font-size: 4em;

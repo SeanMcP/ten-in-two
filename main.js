@@ -118,7 +118,6 @@ timerToggleButton.addEventListener("click", () => {
   }
 });
 timerResetButton.addEventListener("click", resetClock);
-window.addEventListener("beforeunload", cleanupTimer);
 
 renderCategoryOptions();
 updateCategoryCustomState();
